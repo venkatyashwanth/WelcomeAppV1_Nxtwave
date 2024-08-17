@@ -1,0 +1,27 @@
+@import "../../scss/base";
+
+.appBg{
+    background-color: var(--darkClr);
+    height: 100vh;
+    @include d_xyCenter;
+    .appContent{
+        text-align: center;
+        h1{
+            @extend %headingText;
+        }
+        .thanksText{
+            margin-top: 4rem;
+            p{
+                @extend %contentText;
+            }
+            button{
+                margin-top: 2rem;
+                @extend %btnElement;
+            }
+            .subscribedBtn{
+                background-color: var(--yellowClr);
+                color: var(--lightClr);
+            }
+        }
+    }
+}

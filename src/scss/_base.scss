@@ -1,0 +1,32 @@
+@mixin d_xyCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%headingText {
+    font-family: var(--fontvar1);
+    font-size: var(--headingFontSize);
+    color: var(--yellowClr);
+}
+
+%contentText {
+    font-family: var(--fontvar1);
+    color: var(--lightClr);
+    font-size: var(--contentFontSize);
+}
+
+%btnElement {
+    font-family: var(--fontvar1);
+    font-size: var(--btnFontSize);
+    background-color: var(--lightClr);
+    padding: .8rem 1.6rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    &:active{
+        background-color: var(--darkClr);
+        color: var(--lightClr);
+        border: 1px solid var(--lightClr);
+    }
+}

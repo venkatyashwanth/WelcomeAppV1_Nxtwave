@@ -1,0 +1,23 @@
+:root{
+    --darkClr:  #1e293b;
+    --lightClr: #ffffff;
+    --yellowClr: #f0bb03;
+    --fontvar1: "Bree Serif", serif;
+
+    --headingFontSize: 4.8rem;
+    --contentFontSize: 2.8rem;
+    --btnFontSize: 1.6rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
